@@ -15,15 +15,12 @@
 # Импортируем необходимые библиотеки 
 ```
 import pandas as pd
-from currency_converter import CurrencyConverter
+import numpy as np
+import pandas as pd
 
-df = pd.read_csv('_data.csv', index_col=0)
-# df.columns
-# df['ID  объявления'].value_counts()
-# df.head(30)
-df.info()
-# df['Количество комнат'].value_counts()
-# df.loc[:15, 'Площадь, м2']
+import matplotlib as mpl
+import matplotlib.pyplot as plt
+from currency_converter import CurrencyConverter 
 ```
 
 Index: 23368 entries, 0 to 23367
